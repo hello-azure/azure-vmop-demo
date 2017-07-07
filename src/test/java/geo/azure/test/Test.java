@@ -9,8 +9,7 @@ public class Test {
 
 	@org.junit.Test
 	public void test() throws Exception {
-		VmOperation vmOp = new VmOperation("b388b808-0ec9-4a09-a414-a7cbbd8b7e9b",
-				"2c69dee2-e235-4e01-9b7b-dbda48f3e581", "1QAZxsw2", "e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb");
+/*		VmOperation vmOp = new VmOperation("tenant id","client id", "client secret", "sub id");
 
 
 		vmOp.create("geogroup", "geowin-test-004", "devstoragerm",  "george", "1QAZxsw2@1",
@@ -21,9 +20,9 @@ public class Test {
 				VirtualMachineSizeTypes.STANDARD_A0);
 		vmOp.create("geogroup", "geowin-test-006", "devstoragerm",  "george", "1QAZxsw2@1",
 				KnownWindowsVirtualMachineImage.WINDOWS_SERVER_2012_R2_DATACENTER, Region.CHINA_NORTH,
-				VirtualMachineSizeTypes.STANDARD_A0);
+				VirtualMachineSizeTypes.STANDARD_A0);*/
 		
-		VmDiagnosticOperation diagnosticOperation = new VmDiagnosticOperation("b388b808-0ec9-4a09-a414-a7cbbd8b7e9b","2c69dee2-e235-4e01-9b7b-dbda48f3e581", "1QAZxsw2","e0fbea86-6cf2-4b2d-81e2-9c59f4f96bcb");
+		VmDiagnosticOperation diagnosticOperation = new VmDiagnosticOperation("tenant id","client id", "client secret", "sub id");
 		
 		String resourceName ="geogroup";
 		String vmName ="geowin-test-005";
